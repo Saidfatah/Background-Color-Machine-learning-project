@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorPicker {
+  margin: 0 25px 0 0;
+}
+
+.background {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  align-self: stretch;
+}
+
+.text {
+  text-align: center;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .colorPicker {
+    margin: 0 0 25px 0;
+  }
+}
